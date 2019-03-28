@@ -1,0 +1,79 @@
+div {
+  padding: .5em;
+}
+
+p {
+  font-family: 'Questrial', sans-serif;
+  font-size: .9em;
+  color: #595959;
+  margin-right: 2em;
+  margin-left: 1em;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 2.5em;
+  color:#595959;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header_image {
+  width: 100%;
+  margin-top: -.5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+}
+
+.member {
+  background-color: #dbe4f0;
+  color: #595959;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.15em;
+  margin: .5em;
+  padding-top: .65em;
+  padding-bottom: .5em;
+  padding-left: 1.25em;
+}
+
+footer {
+  font-family: 'Questrial', sans-serif;
+  font-size: 1em;
+  color: black;
+  padding: .6em;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.member_pic {
+  float: left;
+  border-radius: 50%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: .5em;
+  width: 5em;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#note {
+  font-family: 'Handlee', cursive;
+  font-size: .75em;
+}
+
+#credit {
+  font-size: .75em;
+  color: steelblue;
+}
